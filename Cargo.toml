@@ -17,7 +17,7 @@ default = ["pkg-config"]
 bundled = ["jq-src"]
 
 [build-dependencies]
-jq-src = { version = "0.4", optional = true }
+jq-src = { git = "https://github.com/thooton/jq-src", optional = true }
 pkg-config = { version = "0.3.14", optional = true }
 
 [package.metadata.docs.rs]
